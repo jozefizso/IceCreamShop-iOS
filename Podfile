@@ -7,7 +7,7 @@ target 'IceCreamShop' do
 
   # Pods for IceCreamShop
   pod 'Alamofire', '2.0.2'
-
+  pod 'MBProgressHUD', '~> 0.9.0'
 
   target 'IceCreamShopTests' do
     inherit! :search_paths

@@ -60,7 +60,7 @@
 		77061861F4149CA8F955D613 /* Pods-IceCreamShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShopTests/Pods-IceCreamShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		949B9446DDC98A6D8B90BAC3 /* Pods-IceCreamShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.debug.xcconfig"; sourceTree = "<group>"; };
 		D0FE5CE3EF3FB6837FAD77FA /* Pods-IceCreamShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.release.xcconfig"; sourceTree = "<group>"; };
-		FE9BE4481D55F0A80063EE87 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		FE9BE4481D55F0A80063EE87 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
