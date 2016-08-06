@@ -20,6 +20,7 @@
 		42801B781A881E5500DEB026 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42801B771A881E5500DEB026 /* IceCreamView.swift */; };
 		42B433FB1A89ECFB0091170B /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B433FA1A89ECFB0091170B /* FlavorFactory.swift */; };
 		42C970621A8C9CAF002FEFF3 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C970611A8C9CAF002FEFF3 /* RGBAColorFromString.swift */; };
+		FE9BE4491D55F0A80063EE87 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FE9BE4481D55F0A80063EE87 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		42B433FA1A89ECFB0091170B /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
 		42B433FC1A89F78F0091170B /* IceCreamShop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceCreamShop-Bridging-Header.h"; sourceTree = "<group>"; };
 		42C970611A8C9CAF002FEFF3 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
+		FE9BE4481D55F0A80063EE87 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		42801B521A881DF600DEB026 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE9BE4481D55F0A80063EE87 /* Podfile */,
 				42B433FC1A89F78F0091170B /* IceCreamShop-Bridging-Header.h */,
 				42801B531A881DF600DEB026 /* Info.plist */,
 			);
@@ -293,6 +296,7 @@
 			files = (
 				4274BF191A88268F00937936 /* LaunchScreen.xib in Resources */,
 				42801B5A1A881DF600DEB026 /* Main.storyboard in Resources */,
+				FE9BE4491D55F0A80063EE87 /* Podfile in Resources */,
 				4274BF171A88264600937936 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
