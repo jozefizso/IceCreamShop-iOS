@@ -6,6 +6,8 @@ target 'IceCreamShop' do
   use_frameworks!
 
   # Pods for IceCreamShop
+  pod 'Alamofire', '2.0.2'
+
 
   target 'IceCreamShopTests' do
     inherit! :search_paths
