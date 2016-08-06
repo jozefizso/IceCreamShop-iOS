@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 public class PickFlavorViewController: UIViewController, UICollectionViewDelegate {
   
@@ -41,7 +42,38 @@ public class PickFlavorViewController: UIViewController, UICollectionViewDelegat
   }
   
   private func loadFlavors() {
-    // TO-DO: Implement this
+    // 1
+    Alamofire.request(
+      .GET, "http://www.raywenderlich.com/downloads/Flavors.plist",
+      parameters: nil,
+      encoding: .PropertyList(.XMLFormat_v1_0, 0), headers: nil)
+      .responsePropertyList { [weak self] (_, _, result) -> Void in
+        
+        // 2
+        guard let strongSelf = self else {
+          return
+        }
+        
+        var flavorsArray: [[String : String]]! = nil
+        
+        // 3
+        switch result {
+          
+        case .Success(let array):
+          if let array = array as? [[String : String]] {
+            flavorsArray = array
+          }
+          
+        case .Failure(_, _):
+          print("Couldn't download flavors!")
+          return
+        }
+        
+        // 4
+        strongSelf.flavors = strongSelf.flavorFactory.flavorsFromDictionaryArray(flavorsArray)
+        strongSelf.collectionView.reloadData()
+        strongSelf.selectFirstFlavor()
+    };
   }
   
   private func selectFirstFlavor() {
